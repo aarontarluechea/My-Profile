@@ -26,8 +26,10 @@ h1{margin:0;color:var(--gold);font-size:36px}
 .role{color:var(--muted);margin:6px 0 0}
 .location{color:rgba(191,191,191,0.85);margin:8px 0}
 .summary{margin:18px 0;color:#d6c48b}
-.actions{display:flex;gap:12px}
-.btn{padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:600}
+.actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.share-area{display:flex;align-items:center;gap:10px;margin-top:16px;flex-wrap:wrap}
+.share-message{color:rgba(191,191,191,0.8);font-size:0.95rem}
+.btn{padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
 .btn.primary{background:var(--gold);color:#000}
 .btn.outline{border:1px solid rgba(212,175,55,0.2);color:var(--gold);background:transparent}
 .card{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03);padding:20px;margin:20px 0;border-radius:10px}
